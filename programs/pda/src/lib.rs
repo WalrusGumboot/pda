@@ -31,12 +31,28 @@ pub mod pda {
         Ok(())
     }
 
-    pub fn nieuw_boek(ctx: Context<Bibliothecaris>, titel: String, auteur: String, genre: String, isbn: u64) -> Result<()> {
+    pub fn nieuw_boek(ctx: Context<BoekenMaker>, titel: String, auteur: String, genre: String, isbn: u64) -> Result<()> {
+        // Allereerst checken we of de opgegeven waarden wel voldoen aan onze strikte ruimtevereisten.
+        // Zoniet gooien we een custom error (die helemaal onderaan gedefinieerd zijn).
         require!(titel.len()  < MAX_TITEL_LENGTE,  BoekError::TitelTeLang);
         require!(auteur.len() < MAX_AUTEUR_LENGTE, BoekError::AuteurTeLang);
         require!(genre.len()  < MAX_GENRE_LENGTE,  BoekError::GenreTeLang);
         
+        // Het bibliotheekaccount waar we zodadelijk de bump aan toevoegen.
+
         let bibliotheek = &mut ctx.accounts.bibliotheek;
+
+        let boek = Boek {
+            titel:  titel,
+            auteur: auteur,
+            genre:  genre,
+            isbn:   isbn,
+
+            bump: *ctx.bumps.get("boek-pda").unwrap()
+        };
+
+        bibliotheek.boeken.push(boek.bump);
+        ctx.accounts.boek.set_inner(boek); // een andere, snellere notatie om alle velden van het Boek-account in te stellen.
        
         Ok(())
     }
@@ -66,26 +82,6 @@ pub struct InitialiseerBibliotheek<'info> {
     #[account(mut)]
     pub gebruiker: Signer<'info>,
     pub system_program: Program<'info, System>
-}
-
-// We gebruiken hier de Bibliothecaris validator om alle Boek-gerelateerde zaken
-// te verzorgen. Aangezien we een PDA gebruiken en de ISBN van een boek altijd uniek
-// is, hebben we aan de gebruiker Pubkey genoeg informatie om daarna toegang te hebben
-// tot alle verdere Boeken die weer gederived zijn van dit Bibliotheek-account.
-
-#[derive(Accounts)]
-pub struct Bibliothecaris<'info> {
-    pub gebruiker: Signer<'info>,
-
-    #[account(
-        mut,
-        seeds = [
-            b"bibliotheek_pda",
-            gebruiker.key().as_ref()
-        ],
-        bump = bibliotheek.bump // hier moeten we wel bump opgeven, aangezien dit geen init is
-    )]
-    pub bibliotheek: Account<'info, Bibliotheek>
 }
 
 
