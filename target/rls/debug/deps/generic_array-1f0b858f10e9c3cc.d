@@ -1,0 +1,12 @@
+/home/simeon/dev/rust/anchor/pda/target/rls/debug/deps/generic_array-1f0b858f10e9c3cc.rmeta: /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/lib.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/hex.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/impls.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/impl_serde.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/arr.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/functional.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/iter.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/sequence.rs
+
+/home/simeon/dev/rust/anchor/pda/target/rls/debug/deps/generic_array-1f0b858f10e9c3cc.d: /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/lib.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/hex.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/impls.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/impl_serde.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/arr.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/functional.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/iter.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/sequence.rs
+
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/lib.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/hex.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/impls.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/impl_serde.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/arr.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/functional.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/iter.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.5/src/sequence.rs:

@@ -1,0 +1,12 @@
+/home/simeon/dev/rust/anchor/pda/target/bpfel-unknown-unknown/release/deps/bytemuck-5f7c5352dc63eec3.rmeta: /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/lib.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/zeroable.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/pod.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/contiguous.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/offset_of.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/transparent.rs
+
+/home/simeon/dev/rust/anchor/pda/target/bpfel-unknown-unknown/release/deps/libbytemuck-5f7c5352dc63eec3.rlib: /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/lib.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/zeroable.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/pod.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/contiguous.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/offset_of.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/transparent.rs
+
+/home/simeon/dev/rust/anchor/pda/target/bpfel-unknown-unknown/release/deps/bytemuck-5f7c5352dc63eec3.d: /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/lib.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/zeroable.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/pod.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/contiguous.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/offset_of.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/transparent.rs
+
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/lib.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/zeroable.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/pod.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/contiguous.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/offset_of.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.8.0/src/transparent.rs:

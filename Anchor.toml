@@ -1,13 +1,14 @@
 [features]
 seeds = false
-[programs.localnet]
-pda = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[programs.devnet]
+pda = "jmvZ2cau7tnjuUSum5ZvAa8dVpoy6B9g5dyNP7gcb2E"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/home/simeon/.config/solana/id.json"
 
 [scripts]

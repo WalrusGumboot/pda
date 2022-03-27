@@ -1,14 +1,12 @@
 use anchor_lang::prelude::*;
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+declare_id!("jmvZ2cau7tnjuUSum5ZvAa8dVpoy6B9g5dyNP7gcb2E");
 
 const MAX_TITEL_LENGTE:  usize = 50;
 const MAX_AUTEUR_LENGTE: usize = 30;
 const MAX_GENRE_LENGTE:  usize = 20;
 
 const MAX_AANTAL_BOEKEN: usize = 3;
-
-
 
 #[program]
 pub mod pda {
@@ -85,8 +83,8 @@ pub struct InitialiseerBibliotheek<'info> {
 }
 
 
-#[derive(Default)] // aangezien init verwacht dat elk account een Default implementatie heeft
 #[account]
+#[derive(Default)] // aangezien init verwacht dat elk account een Default implementatie heeft
 pub struct Bibliotheek {
     pub eigenaar: Pubkey,
     pub bump: u8,

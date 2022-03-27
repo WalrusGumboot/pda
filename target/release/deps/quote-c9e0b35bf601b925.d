@@ -1,0 +1,13 @@
+/home/simeon/dev/rust/anchor/pda/target/release/deps/quote-c9e0b35bf601b925.rmeta: /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/lib.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ext.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/format.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ident_fragment.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/to_tokens.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/runtime.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/spanned.rs
+
+/home/simeon/dev/rust/anchor/pda/target/release/deps/libquote-c9e0b35bf601b925.rlib: /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/lib.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ext.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/format.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ident_fragment.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/to_tokens.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/runtime.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/spanned.rs
+
+/home/simeon/dev/rust/anchor/pda/target/release/deps/quote-c9e0b35bf601b925.d: /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/lib.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ext.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/format.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ident_fragment.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/to_tokens.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/runtime.rs /home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/spanned.rs
+
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/lib.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ext.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/format.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ident_fragment.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/to_tokens.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/runtime.rs:
+/home/simeon/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/spanned.rs:
